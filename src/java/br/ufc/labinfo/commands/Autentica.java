@@ -7,8 +7,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Autentica implements Command{
+/**
+ *
+ * @author Reubber Sousa
+ */
 
+public class Autentica implements Command{
+    
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) {
         

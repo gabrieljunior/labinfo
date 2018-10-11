@@ -12,6 +12,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+/**
+ *
+ * @author Gabriel Júnior
+ */
+
 @Entity
 @Table
 public class Reserva implements Serializable{

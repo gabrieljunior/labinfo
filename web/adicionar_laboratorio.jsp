@@ -1,3 +1,9 @@
+<%-- 
+    Document   : adicionar_laboratorio
+    Created on : 01/09/2018, 14:13:37
+    Author     : Gabriel Júnior
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
     <jsp:include page="header.jsp"/>
     <title>Adicionar Laboratório | LabInfo</title>

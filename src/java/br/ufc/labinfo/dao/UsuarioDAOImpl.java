@@ -9,6 +9,11 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+/**
+ *
+ * @author Reubber Sousa
+ */
+
 public class UsuarioDAOImpl implements UsuarioDAO{
     
     SessionFactory sf = HibernateUtil.getSessionFactory();

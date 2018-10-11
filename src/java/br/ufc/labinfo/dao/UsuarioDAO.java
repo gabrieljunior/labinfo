@@ -4,6 +4,11 @@ import br.ufc.labinfo.model.Usuario;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author Reubber Sousa
+ */
+
 public interface UsuarioDAO {
     public ArrayList<Usuario> getTodosUsuarios();
     public Usuario getUsuario(int codigo);

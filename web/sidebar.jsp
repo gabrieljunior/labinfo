@@ -18,7 +18,7 @@
                   </li>
                   <li><a><i class="fa fa-table"></i> Reserva <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Reservar</a></li>
+                      <li><a href="reservar_laboratorio.jsp">Reservar</a></li>
                       <li><a href="#">Listar</a></li>
                     </ul>
                   </li>

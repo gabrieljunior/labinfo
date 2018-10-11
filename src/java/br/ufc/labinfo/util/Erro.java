@@ -4,6 +4,11 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author Gabriel Júnior
+ */
+
 public class Erro implements Serializable{
     private final List<String> erros;
    

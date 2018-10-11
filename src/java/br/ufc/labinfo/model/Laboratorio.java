@@ -15,6 +15,11 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+/**
+ *
+ * @author Gabriel Júnior
+ */
+
 @Entity
 @Table
 public class Laboratorio implements Serializable{

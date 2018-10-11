@@ -15,6 +15,11 @@ import javax.persistence.Table;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+/**
+ *
+ * @author Gabriel Júnior
+ */
+
 @Entity
 @Table
 public class Usuario implements Serializable{

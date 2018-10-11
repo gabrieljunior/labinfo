@@ -1,3 +1,8 @@
+<%-- 
+    Document   : adicionar_usuario
+    Created on : 10/09/2018, 20:33:47
+    Author     : Gabriel Júnior
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
     <jsp:include page="header.jsp"/>
     <title>Adicionar Usuário | LabInfo</title>

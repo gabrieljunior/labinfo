@@ -4,6 +4,11 @@ import br.ufc.labinfo.model.Reserva;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author Reubber Sousa
+ */
+
 public interface ReservaDAO {
     public ArrayList<Reserva> getTodosReservas();
     public Reserva getReserva(int codigo);
