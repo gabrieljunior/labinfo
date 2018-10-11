@@ -1,0 +1,20 @@
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <script src="vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <script src="vendors/moment/min/moment.min.js"></script>
+    <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="vendors/google-code-prettify/src/prettify.js"></script>
+    <script src="vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+    <script src="vendors/switchery/dist/switchery.min.js"></script>
+    <script src="vendors/select2/dist/js/select2.full.min.js"></script>
+    <script src="vendors/parsleyjs/dist/parsley.min.js"></script>
+    <script src="vendors/autosize/dist/autosize.min.js"></script>
+    <script src="vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+    <script src="vendors/starrr/dist/starrr.js"></script>
+    <script src="build/js/custom.min.js"></script>
+    
