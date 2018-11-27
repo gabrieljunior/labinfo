@@ -1,3 +1,6 @@
+<%@page import="br.ufc.labinfo.dao.LaboratorioDAO"%>
+<%@page import="br.ufc.labinfo.dao.LaboratorioDAOImpl"%>
+<%@page import="br.ufc.labinfo.model.Laboratorio"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
     <jsp:include page="header.jsp"/>
     <title>Reservar Laboratório | LabInfo</title>
@@ -9,7 +12,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>LabInfo</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-desktop"></i> <span>LabInfo</span></a>
             </div> 
             <jsp:include page="sidebar.jsp"/>
           </div>
@@ -32,15 +35,15 @@
                   </div>
                   <div class="x_content">
                     <br>
-                    <form action="Pagina" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
-                        <input type="hidden" name="page" value="ReservaLaboratorio">
+                    <form action="Pagina" method="get" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                        <input type="hidden" name="page" value="ReservarLaboratorio">
                         <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="laboratorio">Laboratório<span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <select name="laboratorio">
-                                <!-- Usar um for para pegar todos os labs cadastrados no bd-->
-                                <option></option>
+                                
+                                
                             </select>
                         </div>
                       </div>

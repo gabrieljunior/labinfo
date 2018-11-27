@@ -14,7 +14,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>LabInfo</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-desktop"></i> <span>LabInfo</span></a>
             </div> 
             <jsp:include page="sidebar.jsp"/>
           </div>
@@ -37,7 +37,7 @@
                   </div>
                   <div class="x_content">
                     <br>
-                    <form action="Pagina" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                    <form action="Pagina" method="POST" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
                         <input type="hidden" name="page" value="AdicionaUsuario">
                         <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="nome">Nome Completo<span class="required">*</span>

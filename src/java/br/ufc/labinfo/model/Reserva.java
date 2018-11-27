@@ -1,8 +1,12 @@
 package br.ufc.labinfo.model;
 
+import br.ufc.labinfo.dao.LaboratorioDAO;
+import br.ufc.labinfo.dao.LaboratorioDAOImpl;
+import br.ufc.labinfo.dao.ReservaDAO;
+import br.ufc.labinfo.dao.ReservaDAOImpl;
 import java.io.Serializable;
-import java.time.LocalDate;
-import java.time.LocalTime;
+import java.util.Calendar;
+import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,6 +15,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 /**
  *
@@ -31,12 +37,12 @@ public class Reserva implements Serializable{
     private Laboratorio laboratorio;
     @Column
     private String descricao;
-    @Column
-    private LocalDate dataReservada;
-    @Column
-    private LocalTime horaInicio;
-    @Column
-    private LocalTime horaFim;
+    @Temporal(TemporalType.DATE)
+    private Date dataReservada;
+    @Temporal(TemporalType.TIME)
+    private Date horaInicio;
+    @Temporal(TemporalType.TIME)
+    private Date horaFim;
     @Column
     private String status;
 
@@ -72,27 +78,27 @@ public class Reserva implements Serializable{
         this.descricao = descricao;
     }
 
-    public LocalDate getDataReservada() {
+    public Date getDataReservada() {
         return dataReservada;
     }
 
-    public void setDataReservada(LocalDate dataReservada) {
+    public void setDataReservada(Date dataReservada) {
         this.dataReservada = dataReservada;
     }
 
-    public LocalTime getHoraInicio() {
+    public Date getHoraInicio() {
         return horaInicio;
     }
 
-    public void setHoraInicio(LocalTime horaInicio) {
+    public void setHoraInicio(Date horaInicio) {
         this.horaInicio = horaInicio;
     }
 
-    public LocalTime getHoraFim() {
+    public Date getHoraFim() {
         return horaFim;
     }
 
-    public void setHoraFim(LocalTime horaFim) {
+    public void setHoraFim(Date horaFim) {
         this.horaFim = horaFim;
     }
 
@@ -102,5 +108,11 @@ public class Reserva implements Serializable{
 
     public void setStatus(String status) {
         this.status = status;
+    }
+    
+    public boolean reservar(){
+        ReservaDAO reserva = new ReservaDAOImpl();
+        reserva.adicionarReserva(this);
+        return true;
     }
 }

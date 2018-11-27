@@ -38,7 +38,7 @@
                   </div>
                   <div class="x_content">
                     <br>
-                    <form action="Pagina" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                    <form action="Pagina" method="POST" id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
                         <input type="hidden" name="page" value="AdicionaLaboratorio">
                         <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="numero">Identificador <span class="required">*</span>

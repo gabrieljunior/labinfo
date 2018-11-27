@@ -23,4 +23,5 @@
         <link href="vendors/starrr/dist/starrr.css" rel="stylesheet">
         <link href="vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
         <link href="build/css/custom.min.css" rel="stylesheet">
+		<link href="vendors/fullcalendar/fullcalendar.min.css" rel="stylesheet"  />
 		<link rel="shortcut icon" href="assets/img/favicon.ico" />

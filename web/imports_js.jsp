@@ -16,5 +16,11 @@
     <script src="vendors/autosize/dist/autosize.min.js"></script>
     <script src="vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
     <script src="vendors/starrr/dist/starrr.js"></script>
-    <script src="build/js/custom.min.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <script src='vendors/fullcalendar/lib/moment.min.js'></script>
+    <script src='vendors/fullcalendar/fullcalendar.min.js'></script>
+    <script src='vendors/fullcalendar/locale/pt-br.js'></script>
+    <script src="build/js/custom.js"></script>

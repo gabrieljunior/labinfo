@@ -21,7 +21,7 @@ public class Autentica implements Command{
         Usuario usuario = new Usuario();
         
         if(usuario.autenticar(request) == true){
-            RequestDispatcher rd = request.getRequestDispatcher("sucesso.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("dashboard.jsp");
             try {
                 rd.forward(request, response);
             } catch (IOException | ServletException e) {

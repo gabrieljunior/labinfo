@@ -20,7 +20,7 @@
 
 <body>
     <div class="login-clean">
-        <form action="Pagina" method="get" style="background-color:#00a3dd;">
+        <form action="Pagina" method="post" style="background-color:#00a3dd;">
             <input type="hidden" name="page" value="Autentica">
             <div class="illustration"><img src="assets/img/logo.png" style="margin-bottom:20px;"></div>
             <div class="form-group"><input class="form-control" type="number" name="codigo" placeholder="Siape" autofocus=""></div>
